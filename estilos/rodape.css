@@ -13,10 +13,14 @@
     padding-left: 30vh;
     padding-right: 30vh;
 }
+.container-img-menu{
+    display: flex;
+}
 
 /* Seção que possui a imagem e o texto secundário */
 #secao-imagem{
-    padding-right: 5vh; /* Aumenta a distância entre a barra de navegação e a seção */
+    padding-right: 20vh; 
+    /* Aumenta a distância entre a barra de navegação e a seção. O segredo está aqui para o ajuste do espaço entre os dois.*/
 }
 
 /* Logo do Rodapé */
@@ -29,6 +33,31 @@
 #texto-secundario-rodape{
     color: #928a8a;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seções com os Títulos e menus */
+.menu{
+    padding-inline: 3vh; /* Espaço entre os menus no rodapé*/
+    
+}
+
+/* Títulos dos menus no rodapé*/
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.links-menu{
+    display: grid;
+}
+
+
+#link-rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #928a8a;
+    padding: 1vh;
 }
 
 /* Linha divisória */
