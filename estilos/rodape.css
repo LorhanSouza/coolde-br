@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
+/* Rodapé como um todo */
 .rodape{
     background-color: #161C2D;
-    align-items: center;
+    align-items: center; /* Alinha o container no centro do rodapé */
 }
 
+/* Container que contém os elementos que compõem o rodapé*/
 .container{
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -12,21 +14,30 @@
     padding-right: 30vh;
 }
 
+/* Seção que possui a imagem e o texto secundário */
+#secao-imagem{
+    padding-right: 5vh; /* Aumenta a distância entre a barra de navegação e a seção */
+}
+
+/* Logo do Rodapé */
 #logo-light{
     height: 50px;
     width: 50px;
 }
 
+/* Texto que fica abaixo da logo */
 #texto-secundario-rodape{
     color: #928a8a;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Linha divisória */
 hr{
     /*Tentar mudar a cor da linha*/
-    margin-top: 2rem;
+    margin-top: 3vh;
 }
 
+/* Texto que fica abaixo da linha divisória */
 #direitos-reservados{
     color: #928a8a;
     text-align: center;
