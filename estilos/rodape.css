@@ -32,7 +32,6 @@
 /* Texto que fica abaixo da logo */
 #texto-secundario-rodape{
     color: #928a8a;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Seções com os Títulos e menus */
@@ -43,7 +42,6 @@
 
 /* Títulos dos menus no rodapé*/
 h4{
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bolder;
 }
@@ -54,7 +52,6 @@ h4{
 
 
 #link-rodape{
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #928a8a;
     padding: 1vh;
@@ -70,5 +67,4 @@ hr{
 #direitos-reservados{
     color: #928a8a;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
