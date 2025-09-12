@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.rodape{
+    background-color: #161C2D;
+    align-items: center;
+}
+
+.container{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#logo-light{
+    height: 50px;
+    width: 50px;
+}
+
+#texto-secundario-rodape{
+    color: #928a8a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    /*Tentar mudar a cor da linha*/
+    margin-top: 2rem;
+}
+
+#direitos-reservados{
+    color: #928a8a;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
