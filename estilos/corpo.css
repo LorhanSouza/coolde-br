@@ -12,7 +12,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     cursor: not-allowed;
 }
@@ -57,10 +57,47 @@ body{
     gap: 15vh; /* Deixa um espaço entre os containeres de texto e imagem */
     padding-bottom: 10vh;
 }
-/*.container-ajuste-vaga{
-    padding: 10vh;
-}*/
 
+.frases-inspiradoras{
+    text-align: center;
+}
+
+.botao-falso{
+    padding-top: 2vh;
+}
+
+#botao-falso{
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.logo-empresa{
+    padding-bottom: 2vh;
+    padding-top: 6vh;
+
+}
+
+#logo-empresa{
+    width: 70px;
+}
+
+/* Altera o design do que está escrito no rodapé da citação */
+#rodape-frases{
+    font-style: italic;
+    color: #928a8a;
+}
+
+#nome-personalidade{
+    color: #5533FF;
+    font-weight: bold;
+}
+
+#botao-personalidade{
+    border-radius: 50%;
+    cursor: pointer;
+}
+ /* Parte da seção de texto*/
 .texto-vaga{
     width: 50vh;
     height: 50vh;
