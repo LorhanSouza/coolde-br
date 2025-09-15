@@ -4,6 +4,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.botoes-corpo{
+    background-color: #6c757d;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: not-allowed;
+}
+
+.imagem-corpo{
+    width: 50px;
+    height: 50px;
+}
+
+.imagem-livros{
+    width: 60vh;
+    height: 60vh;
+}
+
 /* Container que divide a seção de vagas com o reesto da página acima*/
 .b-example-divider {
     width: 100%;
@@ -13,24 +36,84 @@ body{
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em #0000001a,inset 0 .125em .5em #00000026
 }
-.container-vaga{
-   justify-content: center; /* Funcionou para alinhar duas divs no centro de outra div*/
+.container-corpo{
+    display: flex;
+    justify-content: center; /* Funcionou para alinhar duas divs no centro de outra div */
+    gap: 15vh; /* Deixa um espaço entre os containeres de texto e imagem */
+    padding-bottom: 10vh;
 }
-.container-ajuste-vaga{
+/*.container-ajuste-vaga{
     padding: 10vh;
-}
+}*/
 
 .texto-vaga{
     width: 50vh;
     height: 50vh;
+    padding-top: 20vh;
 }
 
 .imagem-vaga{
-    width: 50vh;
-    height: 50vh;
+    width: 70vh;
+    height: 70vh;
 }
 
-h6{
+#titulo-vagas{
+    font-weight: normal;
+}
+
+#texto-secundario-vagas, #texto-secundario-corpo{
     color: #928a8a;
+    font-size: large;
+    font-weight: normal;
 }
 
+#botao-vagas{
+    background-color: white;
+    border-radius: 30px;
+    line-height: 35px;
+    width: 17vh;
+}
+
+#botao-vagas:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+#curso-fundo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
+
+#comecar-agora{
+    display: flexbox;
+    background-color: #022F59;
+    border-radius: 5px;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 5vh;
+    color: aliceblue;
+    text-align: center; /* Sem querer alinhou os itens no centro. Tentei align-items e justify-content e não foi */
+}
+
+#imagem-codigo{
+    width: 10vh;
+}
+
+#botao-curso{
+    background-color: white;
+    border-radius: 30px;
+    line-height: 40px;
+    width: 15vh;
+    font-weight: bold;
+    color: #022F59;
+}
+
+#botao-curso:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    /* Lembrar de fazer o efeito de realce do botao */
+    cursor: pointer;
+}
