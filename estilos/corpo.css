@@ -5,6 +5,16 @@ body{
 }
 
 /* Região da barra de navegação */
+.barra-topo {
+    display: flex;
+    justify-content: center;
+    gap: 75vh; /* Espaço entre o lado direitor e esquerdo da barra de navegação */
+    align-items: center; 
+    background-color: #5533FF;
+}
+
+
+
 #link-nav-topo{
     text-decoration: none;
     color: white;
