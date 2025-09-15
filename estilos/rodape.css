@@ -57,6 +57,11 @@ h4{
     padding: 1vh;
 }
 
+#link-rodape:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
 /* Linha divisória */
 hr{
     /*Tentar mudar a cor da linha*/

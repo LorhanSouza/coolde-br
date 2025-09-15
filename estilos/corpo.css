@@ -169,5 +169,5 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     /* Lembrar de fazer o efeito de realce do botao */
     cursor: pointer;
-    box-shadow: 0 0 10px 2px whitesmoke;
+    box-shadow: 0 0 10px 2px whitesmoke; /* Faz a sombra ao passar com o mouse em cima do botão */
 }
