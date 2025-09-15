@@ -13,8 +13,6 @@ body{
     background-color: #5533FF;
 }
 
-
-
 #link-nav-topo{
     text-decoration: none;
     color: white;
@@ -25,7 +23,11 @@ body{
 }
 
 .nav-direita{
-    
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* Colocando cores diferentes em cada botão e animações simples*/
