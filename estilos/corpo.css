@@ -4,8 +4,59 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.botao-curso{
-    background-color: #6c757d;
+/* Região da barra de navegação */
+#link-nav-topo{
+    text-decoration: none;
+    color: white;
+}
+
+#link-nav-topo:hover{
+    color: gray;
+}
+
+.nav-direita{
+    
+}
+
+/* Colocando cores diferentes em cada botão e animações simples*/
+#botao-1{
+    background-color: #FF745C;
+}
+
+#botao-2{
+    background-color: #FFC801;
+}
+
+#botao-3{
+    background-color: #FFA2C5;
+}
+
+#botao-1:hover{
+    box-shadow: 0 0 10px 2px #FF745C; /* Faz a sombra ao passar com o mouse em cima do botão */
+    transition: 0.5s;
+}
+
+#botao-2:hover{
+    box-shadow: 0 0 10px 2px #FFC801; /* Faz a sombra ao passar com o mouse em cima do botão */
+    transition: 0.5s;
+}
+
+#botao-3:hover{
+    box-shadow: 0 0 10px 2px #FFA2C5; /* Faz a sombra ao passar com o mouse em cima do botão */
+    transition: 0.5s;
+}
+
+/* Botões de cursos que ainda não possuem módulos */
+#botao-4, #botao-5{
+    background-color: #cecece;
+    cursor: not-allowed;
+}
+
+#cadeado{
+    width:25px;
+}
+
+.botao-curso{  
     color: white;
     padding: 15px 30px;
     border-radius: 25px;
@@ -14,8 +65,9 @@ body{
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    cursor: not-allowed;
+    cursor: pointer;
 }
+
 
 .imagem-corpo{
     width: 60vh;
@@ -131,6 +183,7 @@ body{
     background-color: black;
     color: aliceblue;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -167,7 +220,7 @@ body{
 
 #botao-curso:hover{
     font-family: Arial, Helvetica, sans-serif;
-    /* Lembrar de fazer o efeito de realce do botao */
     cursor: pointer;
     box-shadow: 0 0 10px 2px whitesmoke; /* Faz a sombra ao passar com o mouse em cima do botão */
+    transition: 1s;
 }
