@@ -200,6 +200,10 @@ ul{
 /* Altera o design do que está escrito no rodapé da citação */
 #rodape-frases{
     font-style: italic;
+}
+
+blockquote{
+    padding-top: 5vh;
     color: #928a8a;
 }
 
