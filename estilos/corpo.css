@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+html {
+    background-color: #4438c5; 
+}*/
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /* Região da barra de navegação */
 .barra-topo {
@@ -10,24 +27,56 @@ body{
     justify-content: center;
     gap: 75vh; /* Espaço entre o lado direitor e esquerdo da barra de navegação */
     align-items: center; 
-    background-color: #5533FF;
+    background-color: #4438c5;
+    padding-bottom: 2vh;
+    position: sticky;
+}
+
+ul{
+    list-style-type: none;
 }
 
 #link-nav-topo{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 #link-nav-topo:hover{
     color: gray;
 }
 
+.nav-esquerda{
+    display: flex;
+    padding-top: 2vh; /* Ajuste para centralizar horizontalmente os links da barra de navegação esquerda*/
+}
+
 .nav-direita{
     display: flex;
 }
 
-ul{
-    list-style-type: none;
+.nav-lista{
+    display: flex;
+    gap: 2vh;
+    padding-top: 2vh;
+}
+
+#imagem-nav1{
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+#imagem-nav2{
+    padding-right: 7px;
+}
+
+/* Ajuste da área do títuo principal */
+.coolde-principal{
+    
+}
+
+.coolde-principal-conteudo{
+
 }
 
 /* Colocando cores diferentes em cada botão e animações simples*/
@@ -134,6 +183,8 @@ ul{
     border-radius: 30px;
     background-color: white;
     font-weight: bold;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
 }
 
 .logo-empresa{
@@ -152,14 +203,30 @@ ul{
     color: #928a8a;
 }
 
+.display-personalidades{
+    padding-top: 5vh;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
 #nome-personalidade{
     color: #5533FF;
     font-weight: bold;
 }
 
-#botao-personalidade{
+.botao-personalidade{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.botao-personalidade:hover{
+    transform: scale(1.1);
+}
+
+.botao-personalidade.active{
+    transform: scale(1.10);
 }
  /* Parte da seção de texto*/
 .texto-vaga{
