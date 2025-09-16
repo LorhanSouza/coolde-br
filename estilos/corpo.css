@@ -129,6 +129,12 @@ ul{
     cursor: pointer;
 }
 
+.container-corpo{
+    display: flex;
+    justify-content: center; /* Funcionou para alinhar duas divs no centro de outra div */
+    gap: 15vh; /* Deixa um espaço entre os containeres de texto e imagem */
+    padding-bottom: 10vh;
+}
 
 .imagem-corpo{
     width: 60vh;
@@ -148,6 +154,8 @@ ul{
 #texto-secundario-corpo{
     color: #928a8a;
     justify-content: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .imagem-livros{
@@ -163,12 +171,6 @@ ul{
     border: solid rgba(0,0,0,.15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em #0000001a,inset 0 .125em .5em #00000026
-}
-.container-corpo{
-    display: flex;
-    justify-content: center; /* Funcionou para alinhar duas divs no centro de outra div */
-    gap: 15vh; /* Deixa um espaço entre os containeres de texto e imagem */
-    padding-bottom: 10vh;
 }
 
 .frases-inspiradoras{
@@ -236,7 +238,7 @@ blockquote{
 .texto-vaga{
     width: 50vh;
     height: 50vh;
-    padding-top: 20vh;
+    padding-top: 25vh;
 }
 
 .imagem-vaga{
@@ -252,6 +254,8 @@ blockquote{
     color: #928a8a;
     font-size: large;
     font-weight: normal;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 #botao-vagas{
