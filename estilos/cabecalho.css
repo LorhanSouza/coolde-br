@@ -1,12 +1,56 @@
 @charset "UTF-8";
 
-.barra_topo{
-    background-color: black;
-    display: ;
+/* Região da barra de navegação */
+.barra-topo {
+    display: flex;
+    justify-content: center;
+    gap: 75vh; /* Espaço entre o lado direitor e esquerdo da barra de navegação */
+    align-items: center; 
+    background-color: #4438c5;
+    padding-bottom: 2vh;
+    position: sticky;
 }
 
 #logo{
     height: 50px;
     width: 50px;
+    margin-right: 1vh;
 }
 
+ul{
+    list-style-type: none;
+}
+
+#link-nav-topo{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#link-nav-topo:hover{
+    color: gray;
+}
+
+.nav-esquerda{
+    display: flex;
+    padding-top: 2vh; /* Ajuste para centralizar horizontalmente os links da barra de navegação esquerda*/
+}
+
+.nav-direita{
+    display: flex;
+}
+
+.nav-lista{
+    display: flex;
+    gap: 2vh;
+    padding-top: 2vh;
+}
+
+#imagem-nav1{
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+#imagem-nav2{
+    padding-right: 7px;
+}
