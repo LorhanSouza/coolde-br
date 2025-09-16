@@ -179,20 +179,21 @@ ul{
 
 .botao-falso{
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 #botao-falso{
     border-radius: 30px;
     background-color: white;
     font-weight: bold;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
+    border: none;
+    padding: 1vh;
+    box-shadow: 0 0 10px 2px rgb(139, 139, 139); /* Faz a sombra ao passar com o mouse em cima do botão */
 }
 
 .logo-empresa{
     padding-bottom: 2vh;
     padding-top: 6vh;
-
 }
 
 #logo-empresa{
@@ -287,12 +288,16 @@ blockquote{
     padding-left: 20vh;
     padding-right: 20vh;
     padding-bottom: 5vh;
-    color: aliceblue;
     text-align: center; /* Sem querer alinhou os itens no centro. Tentei align-items e justify-content e não foi */
 }
 
 #imagem-codigo{
     width: 10vh;
+}
+
+#texto-curso{
+    color: white;
+    padding-bottom: 5vh;
 }
 
 #botao-curso{
