@@ -28,30 +28,32 @@ body{
     flex-direction: column; /* Como só tem essa coluna, acbaa alinhando o elemento no centro da página */
     text-align: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(60, 47, 198, 0.7), rgba(60, 47, 198, 0.7), url('../imagens/home1.webp'));
+    background-image: linear-gradient(rgba(60, 47, 198, 0.7), rgba(60, 47, 198, 0.7)), url('../imagens/home1.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    justify-content: center;
-    
 }
 
 #titulo-coolde{
     font-weight: bolder;
+    color: white;
+    font-size: 50px;
 }
 
 #subtitulo-coolde{
     margin-top: 2vh;
     margin-bottom: 2vh;
+    color: white;
+    font-size: 25px;
 }
 
 #botao-falso-coolde{
     border-radius: 30px;
-    background-color: white;
+    background-color: transparent;
     font-weight: bold;
-    border: none;
+    color: white;
+    border: 2px solid white;
     padding: 1vh;
-    box-shadow: 0 0 10px 2px rgb(139, 139, 139); /* Faz a sombra ao passar com o mouse em cima do botão */
     margin-top: 2vh;
     margin-bottom: 10vh;
 }
@@ -61,15 +63,15 @@ body{
     border-radius: 30px;
     border: none;
     line-height: 40px;
-    width: 15vh;
+    width: 20vh;
     font-weight: bold;
-    color: #022F59;
+    color: black;
 }
 
 #botao-coolde:hover{
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-    box-shadow: 0 0 10px 2px whitesmoke; /* Faz a sombra ao passar com o mouse em cima do botão */
+    box-shadow: 0 0 5px 1px whitesmoke; /* Faz a sombra ao passar com o mouse em cima do botão */
     transition: 1s;
 }
 
