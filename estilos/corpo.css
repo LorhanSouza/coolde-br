@@ -23,7 +23,7 @@ body{
 
 /* Ajuste da área do títuo principal */
 .coolde-principal{
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-direction: column; /* Como só tem essa coluna, acbaa alinhando o elemento no centro da página */
     text-align: center;
@@ -83,7 +83,7 @@ body{
 .beneficios {
     position: absolute;
     left: 50%;
-    top: 45vh;
+    top: 75vh;
     transform: translateX(-50%);
     width: 120vh; 
     max-width: 120vh;
