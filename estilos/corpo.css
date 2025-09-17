@@ -83,6 +83,7 @@ body{
 .beneficios {
     position: absolute;
     left: 50%;
+    top: 45vh;
     transform: translateX(-50%);
     width: 120vh; 
     max-width: 120vh;
